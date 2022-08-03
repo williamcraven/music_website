@@ -14,7 +14,7 @@ a {
   display: flex;
   flex-direction: column;
   background-color: #1F2037;
-  padding: 10px 90px;
+  padding: 30px 170px;
 }
 
 .header-links {
@@ -38,7 +38,7 @@ a {
   display: flex;
   margin-top: 90px;
   margin-bottom: 90px;
-  gap: 30px;
+  gap: 50px;
 }
 
 .left {
@@ -64,6 +64,9 @@ button {
   height: 35px;
   background-color: #3882F6;
   color: white;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: rgba(255, 255, 255, 0.701);
 }
 
 .header-img {
@@ -97,4 +100,54 @@ button {
   text-align: center;
   color: #313131c3;
   font-size: 18px;
+}
+
+.container3 {
+  background-color: #E5E7EB;
+  padding: 90px 150px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 200;
+  color: #1F2937;
+}
+
+.plato{
+  text-align: right;
+  font-size: 30px;
+}
+
+.container4 {
+  margin: 90px 160px;
+  padding: 50px 90px;
+  border-radius: 10px;
+  background-color: #3882F6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-left {
+  color: #F9FAF8;
+}
+
+.call-to-action {
+  font-size: 21px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.sign-up {
+  font-weight: 100;
+}
+
+.container5 {
+  padding: 30px;
+  background-color: #1F2037;
+  color: #F9FAF8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
