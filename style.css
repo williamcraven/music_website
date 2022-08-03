@@ -18,6 +18,7 @@ a {
 }
 
 .header-links {
+  flex: 1 0 auto;
   display: flex;
 }
 
@@ -68,4 +69,32 @@ button {
 .header-img {
   height: 300px;
   width: auto;
+}
+
+.instruments {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1F2937;
+  text-align: center;
+  margin: 30px;
+}
+
+.instrument {
+  height: 200px;
+  width: 200px;
+}
+
+.instrument-options {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 96px;
+  flex-wrap: wrap;
+}
+
+.instrument-options div {
+  width: 200px;
+  text-align: center;
+  color: #313131c3;
+  font-size: 18px;
 }
