@@ -10,16 +10,13 @@ a {
   color: white;
 }
 
-.container1 {
-  display: flex;
-  flex-direction: column;
-  background-color: #1F2037;
-  padding: 30px 170px;
-}
-
 .header-links {
-  flex: 1 0 auto;
   display: flex;
+  width: 100%;
+  position: fixed;
+  background-color: #1F2937;
+  justify-content: space-between;
+  padding: 20px;
 }
 
 .home {
@@ -27,11 +24,18 @@ a {
   font-weight: 700;
 }
 
+.container1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #1F2037;
+  padding: 30px 170px;
+}
+
 .navigation {
   display: flex;
-  margin-left: auto;
   gap: 17px;
   align-items: center;
+  margin-right: 40px;
 }
 
 .header-content {
@@ -127,6 +131,7 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
 }
 
 .text-left {
